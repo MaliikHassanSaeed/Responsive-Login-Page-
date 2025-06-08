@@ -19,19 +19,19 @@ document.getElementById('signupform').addEventListener('submit', function(event)
     }
 });
 
-const loginForm = document.getElementById('loginform');
-const signupForm = document.getElementById('signupform');
-const toggleLink = document.getElementById('toggleLink');
+// const loginForm = document.getElementById('loginform');
+// const signupForm = document.getElementById('signupform');
+// const toggleLink = document.getElementById('toggleLink');
 
-toggleLink.addEventListener('click', function (event) {
-    event.preventDefault(); 
-    if (loginForm.style.display === 'none') {
-        loginForm.style.display = 'block';
-        signupForm.style.display = 'none';
-        toggleLink.innerHTML = "Don't have an account? Sign Up";
-    } else {
-        loginForm.style.display = 'none';
-        signupForm.style.display = 'block';
-        toggleLink.innerHTML = "Already have an account? Login";
-    }
-});
+// toggleLink.addEventListener('click', function (event) {
+//     event.preventDefault(); 
+//     if (loginForm.style.display === 'none') {
+//         loginForm.style.display = 'block';
+//         signupForm.style.display = 'none';
+//         toggleLink.innerHTML = "Don't have an account? Sign Up";
+//     } else {
+//         loginForm.style.display = 'none';
+//         signupForm.style.display = 'block';
+//         toggleLink.innerHTML = "Already have an account? Login";
+//     }
+// });
